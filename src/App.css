@@ -32,7 +32,23 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.Offer-Container {
+  background-image: url("/src/assets/background_scale_1x.jpeg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+  .Offer-Container {
+    background-image: url("/src/assets/background_scale_2x.jpeg");
+    }
 }
